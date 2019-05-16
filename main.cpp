@@ -21,5 +21,11 @@ int main () {
 //Quadratic equation values of x 
   double ans1 = ((-b) + (sqrt (discriminate))) / (2 * a);
   double ans2 = ((-b) - (sqrt (discriminate))) / (2 * a);
-  cout << "\nValues of x:\n" << ans1 << "\n" << ans2;
+  if (ans1 != ans2) {
+    cout << "\nValues of x:\n" << ans1 << "\n" << ans2;
+  }
+  if (ans1 == ans2) {
+    cout << "\nValue of x:\n" << ans1;
+  }
+  
 }
