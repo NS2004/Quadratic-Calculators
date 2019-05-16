@@ -4,7 +4,7 @@
 #include <cmath>
 using namespace std;
 
-intmain () {
+int main () {
   int a, b, c;
   char choice;
 
