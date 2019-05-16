@@ -15,12 +15,11 @@ int main () {
   cout << "c";
   cin >> c;
 
+//Discriminate (b^2 - 4ac)
+  double discriminate = pow(b, 2) - 4 * a * c;
+  cout << "Discriminate:\n" << discriminate;
 //Quadratic equation values of x 
   double ans1 = ((-b) + (sqrt (discriminate))) / (2 * a);
   double ans2 = ((-b) - (sqrt (discriminate))) / (2 * a);
-//Discriminate (b^2 - 4ac)
-  double discriminate = pow(b, 2) - 4 * a * c;
-
-  cout << "Values of x:\n" << ans1 << "\n" << ans2 << "\nDiscriminate:";
-  cout << discriminate;
+  cout << "\nValues of x:\n" << ans1 << "\n" << ans2;
 }
