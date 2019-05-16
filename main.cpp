@@ -16,8 +16,8 @@ int main () {
   cin >> c;
 
 //Quadratic equation values of x 
-  double ans1 = ((-b) + (sqrt ((pow (b, 2) - (4 * a * c))))) / (2 * a);
-  double ans2 = ((-b) - (sqrt ((pow (b, 2) - (4 * a * c))))) / (2 * a);
+  double ans1 = ((-b) + (sqrt (discriminate))) / (2 * a);
+  double ans2 = ((-b) - (sqrt (discriminate))) / (2 * a);
 //Discriminate (b^2 - 4ac)
   double discriminate = pow(b, 2) - 4 * a * c;
 
