@@ -5,7 +5,7 @@
 using namespace std;
 
 int main () {
-  int a, b, c;
+  double a, b, c;
   char choice;
 
   cout << "a";
@@ -27,5 +27,4 @@ int main () {
   if (ans1 == ans2) {
     cout << "\nValue of x:\n" << ans1;
   }
-  
 }
