@@ -16,9 +16,13 @@ int main () {
       cout << "c";
       cin >> c;
     
+    //Axis of symmetry
+     double aos = (-b)/(2 * a);
+     cout << "Axis of symmetry: \nx = " << aos;
     //Discriminate (b^2 - 4ac)
       double discriminate = pow(b, 2) - 4 * a * c;
-      cout << "Discriminate:\n" << discriminate;
+      cout << "\nDiscriminate:\n" << discriminate;
+     
     //Quadratic equation values of x 
       double ans1 = ((-b) + (sqrt (discriminate))) / (2 * a);
       double ans2 = ((-b) - (sqrt (discriminate))) / (2 * a);
