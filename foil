@@ -4,7 +4,7 @@
 #include <cmath>
 using namespace std;
 
-int factor_calc () {
+int foil() {
     double a, b1, b2, b3, c1, c2, c3, b1c2, b2c1, bc;
     //Input values
       cout << "a";
