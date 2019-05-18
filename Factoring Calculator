@@ -1,0 +1,30 @@
+#include <iostream>
+#include <stdio.h>
+#include <math.h>
+#include <cmath>
+using namespace std;
+
+int factor_calc () {
+    double a, b1, b2, b3, c1, c2, c3, b1c2, b2c1, bc;
+    //Input values
+      cout << "a";
+      cin >> a;
+      cout << "b1";
+      cin >> b1;
+      cout << "c1";
+      cin >> c1;
+      cout << "b2";
+      cin >> b2;
+      cout << "c2";
+      cin >> c2;
+      
+      //Output values
+      b3 = a * (b1 * b2);
+      b1c2 = a * (b1 * c2); 
+      b2c1 = a * (b2 * c1);
+      c3 = a * (c1 * c2);
+      bc = b1c2 + b2c1;
+      
+      //Writing it out
+      cout << "Factored expression:\n" << b3 <<"x^2 + " << bc << "x +" << c3;
+}
