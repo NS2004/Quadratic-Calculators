@@ -4,7 +4,7 @@
 #include <cmath>
 using namespace std;
 
-int quadratics () {
+int equation () {
   double a, b, c;
   char choice;
 
