@@ -5,7 +5,11 @@
 using namespace std;
 
 int main() {
-    double a, b1, b2, b3, c1, c2, c3, b1c2, b2c1, bc;
+    double a, b1, b2, b3, c1, c2, c3, d, b1c2, b2c1, bc;
+    
+    char choice;
+
+    while (choice !='n') {
     //Input values
       cout << "a";
       cin >> a;
@@ -17,14 +21,24 @@ int main() {
       cin >> b2;
       cout << "c2";
       cin >> c2;
+      cout << "d";
+      cin >> d;
       
       //Output values
       b3 = a * (b1 * b2);
       b1c2 = a * (b1 * c2); 
       b2c1 = a * (b2 * c1);
-      c3 = a * (c1 * c2);
+      c3 = a * (c1 * c2) + d;
       bc = b1c2 + b2c1;
       
       //Writing it out
       cout << "Factored expression:\n" << b3 <<"x^2 + " << bc << "x +" << c3;
+      
+      //Repeating
+      cout << "\ny/n:";
+      cin >> choice;
+      if (choice == 'n') {
+          break;
+      }
+    }
 }
