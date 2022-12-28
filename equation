@@ -4,6 +4,7 @@
 #include <cmath>
 using namespace std;
 
+//This program finds useful info from a quadratic expression: roots, discrimant, and axis of symmetry
 int main () {
   double a, b, c;
   char choice;
